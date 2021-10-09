@@ -47,10 +47,13 @@ var c = foo( 2 );
 "_...these two types of look-ups behave differently in the circumstance where the variable has not yet been declared..._" [^quote-ydkjs]
 
 * RHS look-up failure results in a `ReferenceError`
-* LHS look-up failure results in a `ReferenceError`
+* LHS look-up failure:
+    * in not "Strict Mode", the global Scope creates a new variable in global scope
+    * in "Strict Mode", the failure results in a `ReferenceError`
+* If a variable is found in an RHS look-up, but you're trying to do something with its value that is not possible, a `TypeError` is thrown.
 
 
-[^note-strictmode]: Kyle Simpson: [YDKJS - Scope & Closures - Ch1 - Compiler speak](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/scope%20%26%20closures/ch1.md#:~:text=Note%3A%20LHS%20and,the%20assignment%20(RHS)%22.)
+[^note-ydkjs]: Kyle Simpson: [YDKJS - Scope & Closures - Ch1 - Compiler speak](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/scope%20%26%20closures/ch1.md#:~:text=Note%3A%20LHS%20and,the%20assignment%20(RHS)%22.)
 
 [^note-so]: Stack Overflow - [JavaScript LHS and RHS Lookup](https://stackoverflow.com/questions/36383795/javascript-lhs-and-rhs-lookup#:~:text=LHS%20look-up,a%20value%20lookup)  
 
