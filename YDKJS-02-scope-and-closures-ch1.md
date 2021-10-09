@@ -50,4 +50,4 @@ var c = foo( 2 );
 * LHS look-up failure results in a `ReferenceError`
 
 
-[^link-YDNJS]: Kyle Simpson: [YDKJS - Scope & Closures - Ch1 - Compiler speak](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/scope%20%26%20closures/ch1.md#:~:text=Note%3A%20LHS%20and,the%20assignment%20(RHS)%22.)
+[^note-strictmode]: Kyle Simpson: [YDKJS - Scope & Closures - Ch1 - Compiler speak](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/scope%20%26%20closures/ch1.md#:~:text=Note%3A%20LHS%20and,the%20assignment%20(RHS)%22.)
