@@ -4,9 +4,9 @@
 
 ### Look-up types
 
-* LHS:  left-hand side of an assignment operator, meaning: "who's the TARGET of the assignment" [^link-YDNJS].  
+* LHS:  left-hand side of an assignment operator, meaning: "who's the TARGET of the assignment" [^note-strictmode].  
 LHS look-up can be phrased as a CONTAINER look-up [^link-SO]
-* RHS:  right-hand side of an assignment operator, meaning "who's the SOURCE of the assignment" [^link-YDNJS].  
+* RHS:  right-hand side of an assignment operator, meaning "who's the SOURCE of the assignment" [^note-strictmode].  
 RHS look-up can be phrased as a VALUE look-up [^link-SO]
 
 ### Example #1
