@@ -49,11 +49,11 @@ var c = foo( 2 );
 * RHS look-up failure results in a `ReferenceError`
 * LHS look-up failure results in a `ReferenceError`
 
----
 
 [1]: <https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/scope%20%26%20closures/ch1.md#:~:text=Note%3A%20LHS%20and,the%20assignment%20(RHS)%22.>
 
 [2]: <https://stackoverflow.com/questions/36383795/javascript-lhs-and-rhs-lookup#:~:text=LHS%20look-up,a%20value%20lookup> "LHS/RHS looh-up"
 
 [^link-SO]: Stack Overflow - [JavaScript LHS and RHS Lookup](https://stackoverflow.com/questions/36383795/javascript-lhs-and-rhs-lookup#:~:text=LHS%20look-up,a%20value%20lookup)  
+
 [^quote-YDKJS]: Kyle Simpson: [YDKJS](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/scope%20%26%20closures/ch1.md#:~:text=Because%20these%20two%20types%20of%20look-ups%20behave%20differently%20in%20the%20circumstance%20where%20the%20variable%20has%20not%20yet%20been%20declared%20(is%20not%20found%20in%20any%20consulted%20Scope).)
